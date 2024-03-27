@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>Document</title>
+
+    <Style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box            
+        }
+
+        body{
+
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgb(238, 238, 235);
+
+        }    
+
+        .calculadora-container{
+            background-color: black;
+            padding: 24px 14px 14px;
+            border-radius: 8px;
+        }
+
+       .screen-display{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            font-size: 60px;
+            height: 35px;
+            color: aliceblue;
+            padding-top: 85px;
+            padding-bottom: 40px;
+            padding-right: 10px;
+       }
+       
+       td{
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            background-color: rgb(76, 78, 78);
+            font-size: 20px;
+            border-radius: 30px;            
+            cursor: pointer;
+            border-style:solid;
+            border-color: black;
+                 
+            
+       }
+
+        .cinza-claro{
+            background-color: rgb(173, 163, 163); 
+            color: black;
+        }
+
+        .laranja{
+
+            background-color: orange;
+        }
+              
+
+    </Style>
+    
+</head>
+<body>
+    <div class="calculadora-container">
+        <Span class="screen-display">0</Span>
+
+        <table class="calculadora-buttons">
+            <tr>
+                <td class="cinza-claro">AC</td></td>
+                <td class="cinza-claro">+/-</td>
+                <td class="cinza-claro">%</td>
+                <td class="laranja">÷</td>             
+            </tr>
+            <tr></tr>
+            <tr></tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td class="laranja">x</td>
+            </tr>
+            <tr></tr>
+            <tr></tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td class="laranja">-</td>
+            </tr>
+            <tr></tr>
+            <tr></tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td class="laranja">+</td>
+            </tr>
+            <tr></tr>
+            <tr></tr>
+            <tr>
+                <td colspan="2">0</td>
+                <td>,</td>
+                <td class="laranja">=</td>
+                
+            </tr>
+         
+        </table>   
+    </div>
+</div>
+
+    
+</body>
+</html>
